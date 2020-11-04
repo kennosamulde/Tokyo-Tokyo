@@ -442,16 +442,6 @@
       <script src="js/jquery.min.js"></script>
       <script defer src="js/index.js"></script>
       <script>
-        // paceOptions = {
-        //   ajax: true,
-        //   document: true,
-        //   eventLag: false,
-        // }
-
-        // Pace.on("done", function () {
-
-        // })
-
         setTimeout(function () {
           document.querySelector("#preloader").classList.add("loader-slide-up")
           document.querySelector("#homeCarousel").classList.add("home-slide-up")
@@ -461,7 +451,7 @@
           document.querySelector("#midBowl").classList.add("mid-parallax")
           document.querySelector("#bg").classList.add("bg-parallax")
           document.querySelector("#homeArrows").classList.add("slide-right")
-        }, 3000)
+        }, 4000)
 
         setTimeout(function () {
           new Glide(".home__carousel", {
@@ -472,7 +462,7 @@
             type: "carousel",
             draggable: true,
           }).mount()
-        }, 3000)
+        }, 4000)
 
         new Glide(".popular__carousel", {
           perView: 3,
