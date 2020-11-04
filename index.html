@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tokyo Tokyo</title>
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+    <link rel="stylesheet" href="css/fullpage.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600|Roboto:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- container -->
+    <main class="home-container" id="home-container">
+      <!-- header -->
+      <header class="header header--home" id="headerHome">
+        <div class="header__logo" onclick="home()">
+          <img src="img/Tokyo_tokyo_logo copy.png" alt="img1" class="header__logo__img" />
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__nav__links">
+            <li class="header__nav__item links">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="header__nav__item links"><a href="#popular">What's New</a></li>
+            <li class="header__nav__item links">
+              <a href="menu.html">Our Menu</a>
+            </li>
+            <li class="header__nav__item links"><a href="#services">Services</a></li>
+            <li class="header__nav__item links"><a href="#stores">Our Stores</a></li>
+            <li class="header__nav__item links"><a href="#about">About Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__right">
+          <div class="header__user">
+            <button class="header__user__icon">
+              <i class="fas fa-user"></i>
+            </button>
+            <a href="login.html" class="header__user__link links" id="logInNav">Login</a>
+            <a href="login.html" class="header__user__link links" id="signUpNav">Sign up</a>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+      <!-- hero -->
+      <section class="loader" id="preloader">
+        <div class="loader__bg">
+          <div class="loader__bg__main" id="bg"></div>
+          <div class="loader__bg__white"></div>
+        </div>
+        <div class="loader__logo">
+          <img src="img/Tokyo_tokyo_logo copy.png" alt="img1" class="loader__logo__img" />
+        </div>
+        <h3 class="">experience the taste of japan</h3>
+        <div class="loader__bowls">
+          <img src="img/hero/beef.png" alt="" class="loader__bowls__img loader__bowls__img--left" id="leftBowl" />
+          <img src="img/hero/temp.png" alt="" class="loader__bowls__img loader__bowls__img--center" id="midBowl" />
+          <img src="img/hero/chick.png" alt="" class="loader__bowls__img loader__bowls__img--right" id="rightBowl" />
+        </div>
+      </section>
+      <!-- hero end -->
+      <!-- home -->
+      <section class="home">
+        <div class="glide home__carousel" id="homeCarousel">
+          <div class="glide__track home__carousel__track" data-glide-el="track">
+            <ul class="glide__slides home__carousel__slides">
+              <li class="glide__slide home__carousel__slide">
+                <div class="home__slide">
+                  <div class="home__slide--left">
+                    <div class="home__slide--left__main">
+                      <img src="img/hero/wagyu-cubes-HeoaZ.jpg" alt="" class="" />
+                    </div>
+                    <h4 class="heading-4 heading-4--dark">wagyu beef bento</h4>
+                    <div class="home__slide--left__thumb">
+                      <img src="img/drive/IMG_5765.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="home__slide--right">
+                    <div class="home__slide--right__text">
+                      <h2 class="heading-2 heading-2--dark">爆竹マキ</h2>
+                      <h1 class="heading-1 heading-1--dark">Combining traditional & modern Japanese falvors to satisfy the taste of every Filipino.</h1>
+                      <div>
+                        <button class="btn btn--form home__btn">order now</button>
+                      </div>
+                    </div>
+                    <div class="home__slide--right__scroll">
+                      <h5 class="heading-5 heading-5--small">scroll down</h5>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide home__carousel__slide">
+                <div class="home__slide">
+                  <div class="home__slide--left">
+                    <div class="home__slide--left__main">
+                      <img src="img/drive/IMG_5765.jpg" alt="" class="" />
+                    </div>
+                    <h4 class="heading-4 heading-4--dark">wagyu beef bento</h4>
+                    <div class="home__slide--left__thumb">
+                      <img src="img/drive/booky.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="home__slide--right">
+                    <div class="home__slide--right__text">
+                      <h2 class="heading-2 heading-2--dark">爆竹マキ</h2>
+                      <h1 class="heading-1 heading-1--dark">Combining traditional & modern Japanese falvors to satisfy the taste of every Filipino.</h1>
+                      <div>
+                        <button class="btn btn--form home__btn">order now</button>
+                      </div>
+                    </div>
+                    <div class="home__slide--right__scroll">
+                      <h5 class="heading-5 heading-5--small">scroll down</h5>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide home__carousel__slide">
+                <div class="home__slide">
+                  <div class="home__slide--left">
+                    <div class="home__slide--left__main">
+                      <img src="img/drive/booky.jpg" alt="" class="" />
+                    </div>
+                    <h4 class="heading-4 heading-4--dark">wagyu beef bento</h4>
+                    <div class="home__slide--left__thumb">
+                      <img src="img/hero/wagyu-cubes-HeoaZ.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="home__slide--right">
+                    <div class="home__slide--right__text">
+                      <h2 class="heading-2 heading-2--dark">爆竹マキ</h2>
+                      <h1 class="heading-1 heading-1--dark">Combining traditional & modern Japanese falvors to satisfy the taste of every Filipino.</h1>
+                      <div>
+                        <button class="btn btn--form home__btn">order now</button>
+                      </div>
+                    </div>
+                    <div class="home__slide--right__scroll">
+                      <h5 class="heading-5 heading-5--small">scroll down</h5>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows home__arrows" data-glide-el="controls" id="homeArrows">
+            <button class="glide__arrow glide__arrow--left home__arrow home__arrow--left" data-glide-dir="<">
+              <i class="fas fa-caret-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right home__arrow home__arrow--right" data-glide-dir=">">
+              <i class="fas fa-caret-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- home end -->
+      <!-- popular -->
+      <section class="popular" id="popular">
+        <div class="popular__head">
+          <h1 class="heading-1">Our most popular meals</h1>
+          <h3 class="heading-3 heading-3--dark">You deserve more. You deserve Tokyo Tokyo!</h3>
+        </div>
+        <button class="popular__view btn btn--form btn--form--light">View full menu<i class="fas fa-chevron-right"></i></button>
+        <div class="glide popular__carousel">
+          <div class="glide__track popular__track" data-glide-el="track">
+            <ul class="glide__slides popular__slides">
+              <li class="glide__slide popular__slide">
+                <div class="popular__carousel__items">
+                  <picture>
+                    <img src="img/carousel/spicy-lamb-coconut-curry-ramen-11.jpg" alt="" />
+                  </picture>
+                  <button><i class="far fa-heart"></i></button>
+                  <div>
+                    <h3 class="heading-4">beef gyudon</h3>
+                    <h4 class="heading-4">ramen</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide popular__slide">
+                <div class="popular__carousel__items">
+                  <picture class="">
+                    <img src="img/carousel/ramenbacon-11.jpg" alt="" />
+                  </picture>
+                  <button><i class="far fa-heart"></i></button>
+                  <div>
+                    <h3 class="heading-4">beef gyudon</h3>
+                    <h4 class="heading-4">ramen</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide popular__slide">
+                <div class="popular__carousel__items">
+                  <picture>
+                    <img src="img/carousel/instant-pot-ramen-4.jpg" alt="" />
+                  </picture>
+                  <button><i class="far fa-heart"></i></button>
+                  <div>
+                    <h3 class="heading-4">beef gyudon</h3>
+                    <h4 class="heading-4">ramen</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide popular__slide">
+                <div class="popular__carousel__items">
+                  <picture>
+                    <img src="img/carousel/sub-don.jpg" alt="" />
+                  </picture>
+                  <button><i class="far fa-heart"></i></button>
+                  <div>
+                    <h3 class="heading-4">beef gyudon</h3>
+                    <h4 class="heading-4">ramen</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left popular__arrow popular__arrow--left" data-glide-dir="<">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right popular__arrow popular__arrow--right" data-glide-dir=">">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- popular end -->
+      <!-- about -->
+      <section class="about" id="about">
+        <h1 class="heading-1">Who we are</h1>
+        <h2 class="heading-2">
+          Philippine's Japanese fast food restaurant <br />
+          for more than 30 years.
+        </h2>
+        <div class="about__video">
+          <div class=""></div>
+          <button><i class="far fa-play-circle"></i></button>
+          <img src="img/about/Image--11.jpg" alt="" />
+        </div>
+        <button class="btn btn--form btn--form--ghost">About us</button>
+      </section>
+      <!-- about end -->
+      <!-- stores -->
+      <section class="stores" id="stores">
+        <div class="stores__left">
+          <div class="stores__left__franchise">
+            <h1 class="heading-1">Franchising</h1>
+            <h2 class="heading-2">フランチャイズ</h2>
+            <h4 class="heading-3">
+              Partner with the biggest <br />Japanese Restaurant Chain <br />
+              in the Philippines!
+            </h4>
+          </div>
+          <div class="stores__left__branches">
+            <div>
+              <i class="fas fa-map-marker-alt"></i>
+              <h1>80</h1>
+            </div>
+            <h3 class="heading-4">branches nationwide</h3>
+            <h4 class="heading-4">
+              Tokyo Tokyo is the biggest store network of Japanese restaurants to date. <br /><br />
+              Partner with us and let's grow together!
+            </h4>
+          </div>
+        </div>
+        <div class="stores__map">
+          <div>
+            <img src="img/stores/ph.jpg" alt="" />
+          </div>
+        </div>
+        <div class="stores__right">
+          <h4 class="heading-5">Growing store network</h4>
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="50px" height="20px" viewBox="0 0 267.4 47.8" aria-labelledby="title">
+            <path fill="#ca4000" d="M243.1,47.8l-4.3-4.2l17-16.7H0v-6h255.8c-2.3-2.3-4.7-4.6-7-6.9c-3.3-3.3-6.5-6.4-9.3-9.1l-0.7-0.7l4.3-4.2 l0.7,0.7c2.8,2.8,7.1,6.9,11.3,11.1c4.3,4.3,8.7,8.5,11.6,11.4l0.7,0.7L243.1,47.8z"></path>
+            <path fill="#ca4000" d="M243.1,46.4L266,23.9c-5.7-5.6-17.1-16.9-22.9-22.5l-2.9,2.8c5.2,5.1,12,11.8,18,17.7H1v4h257.2l-18,17.7 L243.1,46.4L243.1,46.4z"></path>
+          </svg>
+          <div class="stores__right__img">
+            <img src="img/stores/Header-1024x556.jpg" alt="" />
+          </div>
+          <h5 class="heading-5">
+            With more than 80 branches, we are rapidly expanding. Tokyo Tokyo is now open for Franchising. <br />
+            <br />
+            We are looking for partners who will share in our mission of letting everyone experience a taste of Japan and making quality Japanese food accessible to all Filipinos.
+          </h5>
+          <button class="btn btn--form btn--form--ghost">Learn more<i class="fas fa-chevron-right"></i></button>
+        </div>
+      </section>
+      <!-- stores end -->
+      <!-- news -->
+      <section class="news" id="news">
+        <div class="news__left">
+          <h1 class="heading-1">News<br />& Events</h1>
+          <h2 class="heading-2">ニュースやイベント</h2>
+          <h3 class="heading-3">Watch out for more features of your favorite Japanese meals only in Tokyo Tokyo.</h3>
+          <button class="btn btn--form btn--form--ghost">view all stories<i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="news__content">
+          <div class="news__content__col">
+            <article>
+              <div>
+                <img src="img/news/beef-tomato-ramen-AU-28.jpg" alt="" />
+              </div>
+              <h3 class="heading-3">beef & tomato ramen</h3>
+              <h4 class="heading-4">Tokyo Tokyo brings you a unique and fresh take on your favourite Japanese comfort food with the Beef & Tomato Ramen!</h4>
+              <button class="btn btn--underline">
+                Read full article
+                <svg class="" xmlns="http://www.w3.org/2000/svg" width="50px" height="20px" viewBox="0 0 267.4 47.8" aria-labelledby="title">
+                  <path fill="#ca4000" d="M243.1,47.8l-4.3-4.2l17-16.7H0v-6h255.8c-2.3-2.3-4.7-4.6-7-6.9c-3.3-3.3-6.5-6.4-9.3-9.1l-0.7-0.7l4.3-4.2 l0.7,0.7c2.8,2.8,7.1,6.9,11.3,11.1c4.3,4.3,8.7,8.5,11.6,11.4l0.7,0.7L243.1,47.8z"></path>
+                  <path fill="#ca4000" d="M243.1,46.4L266,23.9c-5.7-5.6-17.1-16.9-22.9-22.5l-2.9,2.8c5.2,5.1,12,11.8,18,17.7H1v4h257.2l-18,17.7 L243.1,46.4L243.1,46.4z"></path>
+                </svg>
+              </button>
+            </article>
+            <article>
+              <div>
+                <img src="img/news/imperial-feast-Pyzco-22.jpg" alt="" />
+              </div>
+              <h3 class="heading-3">beef & tomato ramen</h3>
+              <h4 class="heading-4">Tokyo Tokyo brings you a unique and fresh take on your favourite Japanese comfort food with the Beef & Tomato Ramen!</h4>
+              <button class="btn btn--underline">
+                Read full article
+                <svg class="" xmlns="http://www.w3.org/2000/svg" width="50px" height="20px" viewBox="0 0 267.4 47.8" aria-labelledby="title">
+                  <path fill="#ca4000" d="M243.1,47.8l-4.3-4.2l17-16.7H0v-6h255.8c-2.3-2.3-4.7-4.6-7-6.9c-3.3-3.3-6.5-6.4-9.3-9.1l-0.7-0.7l4.3-4.2 l0.7,0.7c2.8,2.8,7.1,6.9,11.3,11.1c4.3,4.3,8.7,8.5,11.6,11.4l0.7,0.7L243.1,47.8z"></path>
+                  <path fill="#ca4000" d="M243.1,46.4L266,23.9c-5.7-5.6-17.1-16.9-22.9-22.5l-2.9,2.8c5.2,5.1,12,11.8,18,17.7H1v4h257.2l-18,17.7 L243.1,46.4L243.1,46.4z"></path>
+                </svg>
+              </button>
+            </article>
+          </div>
+          <div class="news__content__col">
+            <article>
+              <div>
+                <img src="img/news/firecracker-maki-CGGOC.jpg" alt="" />
+              </div>
+              <h3 class="heading-3">beef & tomato ramen</h3>
+              <h4 class="heading-4">Tokyo Tokyo brings you a unique and fresh take on your favourite Japanese comfort food with the Beef & Tomato Ramen!</h4>
+              <button class="btn btn--underline">
+                Read full article
+                <svg class="" xmlns="http://www.w3.org/2000/svg" width="50px" height="20px" viewBox="0 0 267.4 47.8" aria-labelledby="title">
+                  <path fill="#ca4000" d="M243.1,47.8l-4.3-4.2l17-16.7H0v-6h255.8c-2.3-2.3-4.7-4.6-7-6.9c-3.3-3.3-6.5-6.4-9.3-9.1l-0.7-0.7l4.3-4.2 l0.7,0.7c2.8,2.8,7.1,6.9,11.3,11.1c4.3,4.3,8.7,8.5,11.6,11.4l0.7,0.7L243.1,47.8z"></path>
+                  <path fill="#ca4000" d="M243.1,46.4L266,23.9c-5.7-5.6-17.1-16.9-22.9-22.5l-2.9,2.8c5.2,5.1,12,11.8,18,17.7H1v4h257.2l-18,17.7 L243.1,46.4L243.1,46.4z"></path>
+                </svg>
+              </button>
+            </article>
+            <article>
+              <div><img src="img/news/bento-meals-YxlEJ.jpg" alt="" /></div>
+              <h3 class="heading-3">beef & tomato ramen</h3>
+              <h4 class="heading-4">Tokyo Tokyo brings you a unique and fresh take on your favourite Japanese comfort food with the Beef & Tomato Ramen!</h4>
+              <button class="btn btn--underline">
+                Read full article
+                <svg class="" xmlns="http://www.w3.org/2000/svg" width="50px" height="20px" viewBox="0 0 267.4 47.8" aria-labelledby="title">
+                  <path fill="#ca4000" d="M243.1,47.8l-4.3-4.2l17-16.7H0v-6h255.8c-2.3-2.3-4.7-4.6-7-6.9c-3.3-3.3-6.5-6.4-9.3-9.1l-0.7-0.7l4.3-4.2 l0.7,0.7c2.8,2.8,7.1,6.9,11.3,11.1c4.3,4.3,8.7,8.5,11.6,11.4l0.7,0.7L243.1,47.8z"></path>
+                  <path fill="#ca4000" d="M243.1,46.4L266,23.9c-5.7-5.6-17.1-16.9-22.9-22.5l-2.9,2.8c5.2,5.1,12,11.8,18,17.7H1v4h257.2l-18,17.7 L243.1,46.4L243.1,46.4z"></path>
+                </svg>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- news end -->
+      <!-- services -->
+      <section class="services" id="services">
+        <picture class="services__bg services__bg--top"><img src="img/services/bento-bestchickenteriyaki.png" alt="" /></picture>
+        <picture class="services__bg services__bg--left"><img src="img/services/bento-porktonkatsu.png" alt="" /></picture>
+        <picture class="services__bg services__bg--right"><img src="img/services/menu-bento-10.png" alt="" /></picture>
+        <picture class="services__bg services__bg--bottom"><img src="img/services/beef-yakikinu-bento.png" alt="" /></picture>
+        <div class="services__main">
+          <svg class="services__main__truck" xmlns="http://www.w3.org/2000/svg" viewBox="1 -92 511.999 511" width="511pt" height="511pt">
+            <path d="m 200.625 208.625 c 1.91797 0 3.83984 -0.734375 5.30078 -2.19922 c 2.92969 -2.92969 2.92969 -7.67578 0 -10.6055 l -62.832 -62.832 l 9.43359 -9.4375 l 14.7383 14.7383 c 1.46094 1.46484 3.38281 2.19922 5.30078 2.19922 c 1.91797 0 3.83984 -0.734375 5.30469 -2.19922 l 42.082 -42.082 c 13.9766 -13.9766 13.9766 -36.7148 0 -50.6875 c -2.92969 -2.92969 -7.67578 -2.92969 -10.6055 0 l -62.1211 62.1211 s 0 0 -0.003906 0.003906 c 0 0 -0.003906 0 -0.003906 0.003907 l -14.7344 14.7305 l -18.2578 -18.2578 c 7.36328 -12.1328 5.8125 -28.1992 -4.66016 -38.6719 l -22.6719 -22.6719 c -2.92969 -2.92969 -7.67969 -2.92969 -10.6094 0 c -2.92578 2.92969 -2.92578 7.67969 0 10.6055 l 22.6758 22.6719 c 3.125 3.125 4.84766 7.28125 4.84766 11.7031 c 0 4.42188 -1.72266 8.57813 -4.84766 11.7031 s -7.28125 4.84766 -11.7031 4.84766 c -4.41797 0 -8.57422 -1.72266 -11.6992 -4.84766 l -22.6758 -22.6719 c -2.92969 -2.92969 -7.67578 -2.92969 -10.6055 0 c -2.92969 2.92578 -2.92969 7.67578 0 10.6055 l 22.6719 22.6719 c 5.96094 5.96094 13.8828 9.24219 22.3086 9.24219 c 5.86719 0 11.4883 -1.59375 16.3711 -4.57031 l 91.6914 91.6875 c 1.46484 1.46484 3.38281 2.19922 5.30469 2.19922 Z m 13.0391 -146.211 c 3.38281 7.64844 1.94141 16.9258 -4.31641 23.1836 l -36.7813 36.7813 l -9.43359 -9.43359 Z m 0 0" />
+            <path d="m 81.9531 93.0625 c 1.46484 1.46484 3.38672 2.19531 5.30469 2.19531 c 1.91797 0 3.83984 -0.730468 5.30469 -2.19531 c 2.92578 -2.92969 2.92578 -7.67969 0 -10.6055 l -22.6758 -22.6758 c -2.92578 -2.92969 -7.67578 -2.92969 -10.6055 0 s -2.92969 7.67969 0 10.6055 Z m 0 0" />
+            <path d="m 105.516 149.352 l -46.4688 46.4688 c -2.92969 2.92969 -2.92969 7.67969 0 10.6055 c 1.46484 1.46484 3.38281 2.19922 5.30469 2.19922 c 1.91797 0 3.83594 -0.734375 5.30078 -2.19922 l 46.4688 -46.4688 c 2.92969 -2.92578 2.92969 -7.67578 0 -10.6055 c -2.92969 -2.92969 -7.67969 -2.92969 -10.6055 0 Z m 0 0" />
+            <path d="m 103.691 249 c -12.9727 0 -23.5313 10.5586 -23.5313 23.5313 c 0 12.9766 10.5586 23.5352 23.5313 23.5352 c 12.9766 0 23.5352 -10.5586 23.5352 -23.5352 c 0 -12.9727 -10.5586 -23.5313 -23.5352 -23.5313 Z m 0 32.0664 c -4.70313 0 -8.53125 -3.82813 -8.53125 -8.53516 c 0 -4.70313 3.82813 -8.53125 8.53125 -8.53125 c 4.70703 0 8.53516 3.82813 8.53516 8.53125 c 0 4.70703 -3.82812 8.53516 -8.53516 8.53516 Z m 0 0" />
+            <path d="m 424.34 249 c -12.9766 0 -23.5313 10.5586 -23.5313 23.5313 c 0 12.9766 10.5547 23.5352 23.5313 23.5352 c 12.9727 0 23.5313 -10.5586 23.5313 -23.5352 c 0 -12.9727 -10.5586 -23.5313 -23.5313 -23.5313 Z m 0 32.0664 c -4.70703 0 -8.53125 -3.82813 -8.53125 -8.53516 c 0 -4.70313 3.82813 -8.53125 8.53125 -8.53125 s 8.53125 3.82813 8.53125 8.53125 c 0 4.70703 -3.82813 8.53516 -8.53125 8.53516 Z m 0 0" />
+            <path d="m 484.621 174.137 l -94.6094 -12.6133 l -25.4258 -82.6406 c -4.10156 -13.3203 -16.2188 -22.2695 -30.1523 -22.2695 h -62.918 v -32.582 c 0 -12.9766 -10.5547 -23.5313 -23.5313 -23.5313 h -224.453 c -12.9727 0 -23.5313 10.5547 -23.5313 23.5313 v 232.469 c 0 12.9766 10.5586 23.5313 23.5313 23.5313 h 25.0859 c 3.67187 27.1211 26.9648 48.0977 55.0742 48.0977 c 28.1133 0 51.4023 -20.9766 55.0781 -48.0977 h 210.492 c 3.67578 27.1211 26.9648 48.0977 55.0781 48.0977 c 28.1094 0 51.3984 -20.9766 55.0742 -48.0977 h 1.03516 c 17.3984 0 31.5508 -14.1523 31.5508 -31.5469 v -43.0742 c 0 -15.7461 -11.7695 -29.1914 -27.3789 -31.2734 Z m -110.516 -13.3125 h -70.0078 c -0.285156 0 -0.515625 -0.234375 -0.515625 -0.519531 v -56.1133 c 0 -0.285156 0.230469 -0.515625 0.515625 -0.515625 h 52.4219 Z m -270.414 152.305 c -22.3789 0 -40.5859 -18.207 -40.5938 -40.5859 c 0 -0.003907 0 -0.007813 0 -0.011719 s 0 -0.007812 0 -0.011719 c 0.007813 -22.3789 18.2148 -40.5859 40.5938 -40.5859 c 7.14063 0 14.1563 1.875 20.293 5.42969 c 3.58594 2.07031 8.17578 0.847657 10.25 -2.73828 s 0.847656 -8.17188 -2.73828 -10.25 c -8.41797 -4.86719 -18.0313 -7.44141 -27.8047 -7.44141 c -28.1094 0 -51.3984 20.9766 -55.0742 48.0977 h -25.0859 c -4.70313 0 -8.53125 -3.82813 -8.53125 -8.53125 v -232.469 c 0 -4.70313 3.82813 -8.53125 8.53125 -8.53125 h 224.453 c 4.70313 0 8.53125 3.82813 8.53125 8.53125 v 56.1172 c 0 4.14453 3.35938 7.5 7.5 7.5 s 7.5 -3.35547 7.5 -7.5 v -8.53516 h 62.918 c 7.30859 0 13.6641 4.69531 15.8125 11.6836 l 1.65625 5.38281 h -47.8047 c -8.55859 0 -15.5195 6.95703 -15.5195 15.5156 v 56.1133 c 0 8.55469 6.96094 15.5156 15.5195 15.5156 h 79.6641 l 98.875 13.1836 c 6.64453 0.886719 11.9648 5.69922 13.7305 11.8984 h -7.89844 c -4.14453 0 -7.5 3.35547 -7.5 7.5 c 0 4.14063 3.35547 7.5 7.5 7.5 h 8.53125 v 17.0625 h -33.6484 c -10.0469 -9.90234 -23.8242 -16.0313 -39.0117 -16.0313 c -28.1133 0 -51.4023 20.9766 -55.0781 48.0977 h -97.7461 v -17.0664 h 78.1719 c 4.14063 0 7.5 -3.35547 7.5 -7.5 c 0 -4.14063 -3.35938 -7.5 -7.5 -7.5 h -78.1719 v -120.758 c 0 -4.14453 -3.35938 -7.5 -7.5 -7.5 s -7.5 3.35547 -7.5 7.5 v 152.82 h -97.7344 c -0.503906 -3.73438 -1.37891 -7.40625 -2.63672 -10.9727 c -1.375 -3.90625 -5.66016 -5.96094 -9.56641 -4.58594 c -3.90625 1.37891 -5.95703 5.66016 -4.58203 9.56641 c 1.52344 4.32422 2.29297 8.86328 2.29297 13.4922 c 0 22.3867 -18.2109 40.5977 -40.5977 40.5977 Z m 320.648 0 c -22.3867 0 -40.5977 -18.2109 -40.5977 -40.5977 s 18.2109 -40.5977 40.5977 -40.5977 c 22.3828 0 40.5977 18.2109 40.5977 40.5977 s -18.2148 40.5977 -40.5977 40.5977 Z m 56.1133 -48.0977 h -1.03906 c -0.816406 -6.04688 -2.60937 -11.7891 -5.21484 -17.0625 h 22.8008 v 0.515625 c 0 9.125 -7.42188 16.5469 -16.5469 16.5469 Z m 0 0" />
+          </svg>
+          <h1 class="heading-1 heading-1--dark">We accept Catering Services!</h1>
+          <h4 class="heading-3 heading-3--dark">Find a store near you.</h4>
+          <form class="services__main__search">
+            <i class="fas fa-map-marker-alt services__main__search__location"></i>
+            <input type="text" class="services__main__search__text" placeholder="Locate Store" />
+            <button class="">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- services end -->
+      <!-- footer -->
+      <section class="footer">
+        <div class="footer__icons footer-col">
+          <div class="footer__icons__logo">
+            <img src="img/Tokyo_tokyo_logo copy.png" alt="" />
+          </div>
+          <div class="footer__icons__social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <ul class="footer__nav footer__nav--1 footer-col">
+          <li class=""><a href="#">Home</a></li>
+          <li class=""><a href="#">What's New</a></li>
+          <li class=""><a href="#">About Us</a></li>
+          <li class=""><a href="#">Menu</a></li>
+          <li class=""><a href="#">Delivery</a></li>
+          <li class=""><a href="#">Catering</a></li>
+        </ul>
+        <ul class="footer__nav footer__nav--2 footer-col">
+          <li class=""><a href="#">Our Stores</a></li>
+          <li class=""><a href="#">Franchising</a></li>
+          <li class=""><a href="#">Suggest A Branch</a></li>
+          <li class=""><a href="#">Recruitment</a></li>
+          <li class=""><a href="#">Privacy</a></li>
+        </ul>
+        <div class="footer__email footer-col">
+          <i class="fas fa-envelope footer__email__logo"></i>
+          <h2 class="heading-2">Subscribe to our newsletter and learn the latest news, promos, and events!</h2>
+          <form>
+            <input type="text" placeholder="Enter your email address" />
+            <button class="">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+        <button class="footer__back-btn">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </section>
+      <!-- footer end -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+      <script src="js/fullpage.min.js"></script>
+      <script src="js/pace.js"></script>
+      <script src="js/glide.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script defer src="js/index.js"></script>
+      <script>
+        // paceOptions = {
+        //   ajax: true,
+        //   document: true,
+        //   eventLag: false,
+        // }
+
+        // Pace.on("done", function () {
+
+        // })
+
+        setTimeout(function () {
+          document.querySelector("#preloader").classList.add("loader-slide-up")
+          document.querySelector("#homeCarousel").classList.add("home-slide-up")
+          document.querySelector("#headerHome").classList.add("nav-slide-down")
+          document.querySelector("#leftBowl").classList.add("left-parallax")
+          document.querySelector("#rightBowl").classList.add("right-parallax")
+          document.querySelector("#midBowl").classList.add("mid-parallax")
+          document.querySelector("#bg").classList.add("bg-parallax")
+          document.querySelector("#homeArrows").classList.add("slide-right")
+        }, 3000)
+
+        setTimeout(function () {
+          new Glide(".home__carousel", {
+            perView: 1,
+            autoplay: 7000,
+            hoverpause: true,
+            animationDuration: 10,
+            type: "carousel",
+            draggable: true,
+          }).mount()
+        }, 3000)
+
+        new Glide(".popular__carousel", {
+          perView: 3,
+          animationDuration: 500,
+          autoplay: 4000,
+          hoverpause: true,
+          type: "carousel",
+          focusAt: "center",
+          gap: "50px",
+          draggable: true,
+        }).mount()
+      </script>
+    </main>
+  </body>
+</html>

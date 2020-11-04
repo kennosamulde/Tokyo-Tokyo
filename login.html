@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tokyo Tokyo</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+</head>
+
+<body>
+    <!-- container -->
+    <div class="checkout-container">
+        <!-- header -->
+        <header class="header header--checkout">
+            <div class="header__logo" onclick="home()">
+                <img src="img/Tokyo_tokyo_logo copy.png" alt="img1" class="header__logo__img">
+            </div>
+           
+            <div class="header__right">
+                <div class="header__user">
+                    <button class="header__user__icon"><i class="fas fa-user"></i></button>
+                    <a href="login.html" class="header__user__link links" id="logInNav">Login</a>
+                    <a href="login.html" class="header__user__link links" id="signUpNav">Sign up</a>
+                    <a href="menu.html" class="header__user__shop links"><i class="fas fa-arrow-left"></i>Continue Shopping</a>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        <!-- form container -->
+        <section class="form-section" id="formBody">
+            <div class="form-bg" id="form-container">
+                <div class="sign-up-container form-container">
+                    <form action="#" class="form">
+                        <div class="form__head">
+                            <h1>Create your account</h1>
+                            <h2>Join us for exclusive offers and discounts.</h1>
+                            <div>
+                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <span>Or enter your details for a new account.</span>
+                        </div>
+                        <div class="" id="error"></div>
+                        <div class="form__body">
+                            <div class="form__group">
+                                <label for="name" class="form__label">full name</label>
+                                <input type="text" class="form__input" placeholder="" id="name" required>
+                            </div>
+        
+                            <div class="form__group">
+                                <label for="email" class="form__label">email</label>
+                                <input type="email" class="form__input" placeholder="" id="email" required>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="mobile" class="form__label">mobile number</label>
+                                <input type="text" class="form__input" placeholder="" id="mobile" required>
+                            </div>              
+        
+                            <div class="form__group">
+                                <label for="password" class="form__label">password</label>
+                                <input type="password" class="form__input" placeholder="" id="password" required>     
+                            </div>
+        
+                             <div class="form__group">
+                                <label for="re-password" class="form__label">Re-enter password</label>
+                                <input type="password" class="form__input" placeholder="" id="re-password" required>     
+                            </div>
+                        </div>
+                        
+                        <div class="form__buttons">
+                            <button class="btn btn--form">Sign Up</button>
+                            <button class="btn btn--form btn--form--light" id="guestBtn" onclick="guest()">Proceed as guest</button>
+                        </div>
+                    </form>
+                </div>
+              
+                <div class="log-in-container form-container">
+                    <form action="#" class="form">
+                        <div class="form__head">
+                            <h1>Welcome!</h1>
+                            <h2>Please Log in to continue</h1>
+                            <div class="social-container">
+                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <span>Or use your account.</span>
+                        </div>
+                        <div class="form__body">
+                            <div class="form__group">
+                                <label for="email" class="form__label">email</label>
+                                <input type="email" class="form__input" placeholder="" id="email2" required>
+                            </div>
+        
+                            <div class="form__group">
+                                <label for="password" class="form__label">password</label>
+                                <input type="password" class="form__input" placeholder="" id="password2" required>     
+                            </div>
+
+                            <div class="form__group">
+                                <input type="checkbox" class="form__checkbox" placeholder="" id="checkbox2" required>
+                                <span class="form__checkmark"></span>
+                                <label for="checkbox" class="form__label form__label--checkbox">remember me</label>     
+                            </div>
+                        </div>
+                
+                        <div class="form__buttons">
+                            <button class="btn btn--form" type="submit">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>We missed you!</h1>
+                            <p>Avail your returning customer discounts<br>
+                                by logging in to your account.</p>
+                            <button class="btn btn--form btn--form--ghost" id="logIn">Log In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Not yet a member?</h1>
+                            <p>Create your Tokyo Tokyo account now to<br>
+                              enjoy exclusive discounts on your next order.</p>
+                            <button class="btn btn--form btn--form--ghost" id="signUp">Sign Up</button>
+                            <span>or</span>
+                            <button class="btn btn--form btn--form--light" id="guestBtn" onclick="guest()">Proceed as guest</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form container end -->
+    <!-- container end -->
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script> -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 1.6; }
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #e7e7e7;
+  transition: background-color 5000s ease-in-out 0s; }
+
+select {
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
+  /* get rid of default appearance for IE8, 9 and 10*/ }
+
+.container {
+  display: grid;
+  grid-template-rows: 100vh repeat(5, min-content);
+  grid-template-columns: 15vw 1fr 15vw; }
+
+.hero {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+  .hero__text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 400px; }

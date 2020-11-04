@@ -1,0 +1,59 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Beef Gyudon",
+          "price": 170,
+          "dynaPrice": 170,
+          "amount": 1,
+          "egg": 0,
+          "eggTotal": 0,
+          "meat": 0,
+          "meatTotal": 0,
+          "veggies": 0,
+          "veggiesTotal": 0,
+          "description": "Thin-sliced tender beef, paired with savory scrambled egg, all simmered in sweet and savory sauce on a bowl of steaming white rice.",
+          "flavor": "Flavor: Richly Sweet & Savory",
+          "image": { "fields": { "file": { "url": "./img/don/don-beef.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Chicken Gyudon",
+          "price": 160,
+          "dynaPrice": 160,
+          "amount": 1,
+          "egg": 0,
+          "eggTotal": 0,
+          "meat": 0,
+          "meatTotal": 0,
+          "veggies": 0,
+          "veggiesTotal": 0,
+          "description": "Thin-sliced tender chicken, paired with savory scrambled egg, all simmered in sweet and savory sauce on a bowl of steaming white rice.",
+          "flavor": "Flavor: Richly Sweet & Savory",
+          "image": { "fields": { "file": { "url": "./img/don/don-chicken.png"} } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Pork Gyudon",
+          "price": 150,
+          "dynaPrice": 150,
+          "amount": 1,
+          "egg": 0,
+          "eggTotal": 0,
+          "meat": 0,
+          "meatTotal": 0,
+          "veggies": 0,
+          "veggiesTotal": 0,
+          "description": "Thin-sliced tender pork, paired with savory scrambled egg, all simmered in sweet and savory sauce on a bowl of steaming white rice.",
+          "flavor": "Flavor: Richly Sweet & Savory",
+          "image": { "fields": { "file": { "url": "./img/don/don-pork.png" } } }
+        }
+      }
+    ]
+  }
+  
